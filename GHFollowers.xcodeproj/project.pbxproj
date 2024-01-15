@@ -23,6 +23,7 @@
 		7A45B5452B54EA840086D61F /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A45B5442B54EA840086D61F /* Follower.swift */; };
 		7A45B5472B54EB6E0086D61F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A45B5462B54EB6E0086D61F /* User.swift */; };
 		7A45B54A2B54F23C0086D61F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A45B5492B54F23C0086D61F /* NetworkManager.swift */; };
+		7A45B54D2B552A390086D61F /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A45B54C2B552A390086D61F /* GFError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		7A45B5442B54EA840086D61F /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		7A45B5462B54EB6E0086D61F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7A45B5492B54F23C0086D61F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7A45B54C2B552A390086D61F /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		7A45B5162B52BDEC0086D61F /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				7A45B54B2B552A240086D61F /* Utilities */,
 				7A45B5482B54F2280086D61F /* Managers */,
 				7A45B5432B54EA6A0086D61F /* Model */,
 				7A45B5422B54E4BD0086D61F /* Support */,
@@ -143,6 +146,14 @@
 				7A45B5492B54F23C0086D61F /* NetworkManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		7A45B54B2B552A240086D61F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7A45B54C2B552A390086D61F /* GFError.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +234,7 @@
 				7A45B5302B530C3D0086D61F /* FavoritesListVC.swift in Sources */,
 				7A45B53C2B53FA9D0086D61F /* GFAlertVC.swift in Sources */,
 				7A45B5182B52BDEC0086D61F /* AppDelegate.swift in Sources */,
+				7A45B54D2B552A390086D61F /* GFError.swift in Sources */,
 				7A45B5452B54EA840086D61F /* Follower.swift in Sources */,
 				7A45B51A2B52BDEC0086D61F /* SceneDelegate.swift in Sources */,
 				7A45B54A2B54F23C0086D61F /* NetworkManager.swift in Sources */,
