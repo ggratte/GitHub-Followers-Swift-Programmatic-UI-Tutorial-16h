@@ -26,6 +26,7 @@
 		7A45B54D2B552A390086D61F /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A45B54C2B552A390086D61F /* GFError.swift */; };
 		7A45B5502B55359C0086D61F /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A45B54F2B55359C0086D61F /* FollowerCell.swift */; };
 		7A45B5522B5536680086D61F /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A45B5512B5536680086D61F /* GFAvatarImageView.swift */; };
+		7A45B5542B577A2B0086D61F /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A45B5532B577A2B0086D61F /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		7A45B54C2B552A390086D61F /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		7A45B54F2B55359C0086D61F /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		7A45B5512B5536680086D61F /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		7A45B5532B577A2B0086D61F /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				7A45B54C2B552A390086D61F /* GFError.swift */,
+				7A45B5532B577A2B0086D61F /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				7A45B53E2B5465C20086D61F /* UIViewController+Ext.swift in Sources */,
 				7A45B53A2B53BF5E0086D61F /* GFBodyLabel.swift in Sources */,
 				7A45B5322B5391670086D61F /* GFButton.swift in Sources */,
+				7A45B5542B577A2B0086D61F /* UIHelper.swift in Sources */,
 				7A45B5522B5536680086D61F /* GFAvatarImageView.swift in Sources */,
 				7A45B5302B530C3D0086D61F /* FavoritesListVC.swift in Sources */,
 				7A45B53C2B53FA9D0086D61F /* GFAlertVC.swift in Sources */,
