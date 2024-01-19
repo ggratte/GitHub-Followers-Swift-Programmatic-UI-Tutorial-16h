@@ -34,6 +34,7 @@
 		7A45B5642B594A400086D61F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A45B5632B594A400086D61F /* Constants.swift */; };
 		7A45B5662B59A2690086D61F /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A45B5652B59A2690086D61F /* GFItemInfoView.swift */; };
 		7A45B5682B5A08380086D61F /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A45B5672B5A08380086D61F /* GFItemInfoVC.swift */; };
+		7A45B56A2B5A0BDF0086D61F /* GFRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A45B5692B5A0BDF0086D61F /* GFRepoItemVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		7A45B5632B594A400086D61F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7A45B5652B59A2690086D61F /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 		7A45B5672B5A08380086D61F /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
+		7A45B5692B5A0BDF0086D61F /* GFRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +240,7 @@
 				7A45B53B2B53FA9D0086D61F /* GFAlertVC.swift */,
 				7A45B55F2B5927FF0086D61F /* GFUserInfoHeaderVC.swift */,
 				7A45B5672B5A08380086D61F /* GFItemInfoVC.swift */,
+				7A45B5692B5A0BDF0086D61F /* GFRepoItemVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				7A45B5382B53BE060086D61F /* GFTitleLabel.swift in Sources */,
 				7A45B5362B53B6D70086D61F /* FollowerListVC.swift in Sources */,
 				7A45B5342B5396AC0086D61F /* GFTextField.swift in Sources */,
+				7A45B56A2B5A0BDF0086D61F /* GFRepoItemVC.swift in Sources */,
 				7A45B55E2B58C6BF0086D61F /* UserInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
