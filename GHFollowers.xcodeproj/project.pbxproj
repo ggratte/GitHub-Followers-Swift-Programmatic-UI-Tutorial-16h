@@ -41,6 +41,7 @@
 		7A45B5722B5A3DF20086D61F /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A45B5712B5A3DF20086D61F /* PersistenceManager.swift */; };
 		7A70D6D72B5B783800E749BD /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70D6D62B5B783800E749BD /* FavoriteCell.swift */; };
 		7A70D6DC2B5CCB4700E749BD /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70D6DB2B5CCB4700E749BD /* GFTabBarController.swift */; };
+		7A70D6DE2B5CDA2C00E749BD /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70D6DD2B5CDA2C00E749BD /* GFAlertContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		7A45B5712B5A3DF20086D61F /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		7A70D6D62B5B783800E749BD /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		7A70D6DB2B5CCB4700E749BD /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
+		7A70D6DD2B5CDA2C00E749BD /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +239,7 @@
 			children = (
 				7A45B55B2B58442B0086D61F /* GFEmptyStateView.swift */,
 				7A45B5652B59A2690086D61F /* GFItemInfoView.swift */,
+				7A70D6DD2B5CDA2C00E749BD /* GFAlertContainerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				7A45B5602B5927FF0086D61F /* GFUserInfoHeaderVC.swift in Sources */,
 				7A45B54D2B552A390086D61F /* GFError.swift in Sources */,
 				7A45B5452B54EA840086D61F /* Follower.swift in Sources */,
+				7A70D6DE2B5CDA2C00E749BD /* GFAlertContainerView.swift in Sources */,
 				7A45B51A2B52BDEC0086D61F /* SceneDelegate.swift in Sources */,
 				7A45B56E2B5A14250086D61F /* Date+Ext.swift in Sources */,
 				7A45B5722B5A3DF20086D61F /* PersistenceManager.swift in Sources */,
