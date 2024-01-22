@@ -6,7 +6,10 @@
 //
 
 import Foundation
+/*
 
+Not needed after I'm using Date in my the model and decoding directly to this Date object with decodingstrategy.iso8601
+ 
 extension String {
     func convertToDate() -> Date? {
         let dateFormatter = DateFormatter()
@@ -22,3 +25,4 @@ extension String {
         return date.convertToMonthYearFormat()
     }
 }
+*/
